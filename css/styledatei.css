@@ -1,0 +1,1120 @@
+body
+{
+background-image: url(../bilder/zamonienfarbverlvoll2.jpg);
+background-repeat: repeat;
+background-size: 100% 100%;
+background-attachment: local;
+font-family: verdana;
+}
+
+body#index
+{
+background-color: #cccccc;
+font-family: verdana;
+margin: 0;
+padding: 0;
+}
+
+div#header
+{
+height: 250px;
+background-image: url(../bilder/zamonienfarbverlvoll.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: local;
+background-position: top left;
+border-bottom-color: #c27d56;
+border-bottom-width: 2px;
+border-bottom-style:solid;
+}
+
+div#wrap
+{
+/*background-color: #829D1A;*/
+background-image: url(../bilder/transparenzen/hellgruen-30.png);
+background-repeat: repeat;
+background-size: 100% 100% ;
+background-attachment: local;
+border-top-color: #c27d56;
+border-top-width: 2px;
+border-top-style:solid;
+border-left-color: #c27d56;
+border-left-width: 2px;
+border-left-style:solid;
+border-right-color: #c27d56;
+border-right-width: 2px;
+border-right-style:solid;
+height: 100%;
+margin-right: 5%;
+margin-left: 10%;
+
+}
+
+div.alles
+{
+
+}
+
+/* ---------------------------------- Hauptnavi beginn ---------------------*/
+ul#navi
+{
+position: absolute;
+top: 201px;
+z-index: 100;
+margin-left: -2px;
+padding-left: 0px;
+}
+
+ul#navi li
+{
+float: left;
+list-style-type: none;
+margin-right: -1px;
+}
+
+ul#navi li a
+{
+text-decoration: none;
+text-align: center;
+color: #F5CF71;
+font-weight: bold;
+display: block;
+background-color: #677985;
+border-color: #c27d56;
+border-width: 2px;
+border-style:solid;
+min-width: 100px;
+padding: 5px 15px 7px 17px;
+}
+
+ul#navi li a:hover
+{
+color: #faf1dc;
+background-color: #a6b6c0;
+}
+
+ul#navi li a:active
+{
+color: #b4c1fc;
+background-color: #e1f7e5;
+}
+
+ul#navi li.besuchteseite
+{
+text-decoration: none;
+text-align: center;
+color: #9b5480;
+font-weight: bold;
+display: block;
+background-color: #b3d1b9;
+border-color: #c27d56;
+border-width: 2px;
+border-style:solid;
+min-width: 100px;
+padding: 5px 15px 7px 17px;
+}
+
+/* ---------------------------------- Hauptnavi Ende ---------------------*/
+
+/* ---------------------------------- Unternavi beginn ---------------------*/
+ul#unternavi
+{
+position: absolute;
+top: 290px;
+z-index: 60;
+margin-left: -2px;
+padding-left: 0px;
+width: 160px;
+}
+
+ul#unternavi li
+{
+float: left;
+list-style-type: none;
+margin-bottom: -2px;
+}
+
+ul#unternavi li a
+{
+text-decoration: none;
+color: #f5cf71;
+font-weight: bold;
+display: block;
+background-color: #677985;
+border-color: #c27d56;
+border-width: 2px;
+border-style:solid;
+min-width: 160px;
+padding: 5px 15px 7px 17px;
+}
+
+ul#unternavi li a:hover
+{
+color: #faf1dc;
+background-color: #a6b6c0;
+}
+
+ul#unternavi li a:active
+{
+color: #b4c1fc;
+background-color: #e1f7e5;
+}
+
+ul#unternavi li.besuchteseite
+{
+text-decoration: none;
+text-align: center;
+color: #9b5480;
+font-weight: bold;
+display: block;
+background-color: #b3d1b9;
+border-color: #c27d56;
+border-width: 2px;
+border-style:solid;
+min-width: 160px;
+padding: 5px 15px 7px 17px;
+}
+
+ul#unternavi li.besuchteseite2
+{
+text-decoration: none;
+color: #677985;
+font-weight: bold;
+display: block;
+background-color: #a6b6c0;
+border-color: #c27d56;
+border-width: 2px;
+border-style:solid;
+min-width: 160px;
+padding: 5px 15px 7px 17px;
+}
+
+ul#unternavi li.besuchteseite3
+{
+text-decoration: none;
+color: #a6b6c0;
+font-weight: bold;
+display: block;
+background-color: #677985;
+border-color: #c27d56;
+border-width: 2px;
+border-style:solid;
+min-width: 160px;
+padding: 5px 15px 7px 17px;
+}
+
+/* ---------------------------------- Unternavi Ende ---------------------*/
+
+/*----------------Breadcrumb Beginn---------------*/ 
+ 
+div#breadcrumb 
+{ 	
+margin: 0 0 50px 0; 	
+color: #494848; 
+font-size: 0.7em;
+}  
+
+div#breadcrumb a 
+{ 	
+color: #f5cf71; 
+}
+
+div#breadcrumb a:hover
+{
+color: #faf1dc;
+}
+
+div#breadcrumb a:active
+{
+color: #b4c1fc;
+}  
+
+div#breadcrumb .ist 
+{ 	
+font-weight: bold; 
+color: #9b5480;
+}  
+
+/*----------------Breadcrumb Ende---------------*/
+
+/* ---------------------------------- Footernavi beginn ---------------------*/
+
+ul#footernavi
+{
+position: relative;
+top: 0px;
+margin-left: 0%;
+padding-left: 0px;
+}
+
+ul#footernavi li
+{
+float: right;
+list-style-type: none;
+margin-right: -1px;
+}
+
+ul#footernavi li a
+{
+text-decoration: none;
+color: #f5cf71;
+font-weight: bold;
+display: block;
+min-width: 50px;
+border-right-width: 1px;
+border-right-color: #494848;
+border-right-style: solid;
+border-left-width: 1px;
+border-left-color: #494848;
+border-left-style: solid;
+padding: 2px 15px 2px 15px;
+}
+
+ul#footernavi li a:hover
+{
+color: #faf1dc;
+}
+
+ul#footernavi li a:active
+{
+color: #b4c1fc;
+}
+
+ul#footernavi li.besuchteseite
+{
+color: #9b5480;
+font-weight: bold;
+display: block;
+min-width: 50px;
+border-right-width: 1px;
+border-right-color: #494848;
+border-right-style: solid;
+border-left-width: 1px;
+border-left-color: #494848;
+border-left-style: solid;
+padding: 2px 15px 2px 15px;
+}
+
+/* ---------------------------------- Footernavi Ende ---------------------*/
+
+/*------------ Beginn der Unternavigation für Galerie ------------------------*/
+
+#navi-galerie
+{
+padding: 0 0 0 0;	
+list-style-type: none; 
+}
+
+#navi-galerie li
+{
+float: left;
+margin: 0 10px 0 0;
+padding: 3px;
+border: 2px solid #c27d56;
+}
+
+#navi-galerie img
+{
+display: block;
+}
+
+#navi-galerie a
+{
+display:block;
+}
+
+#navi-galerie a.muv
+{
+background-image: url(../bilder/arbeitsproben/mutausbruchkl.jpg);
+}
+
+#navi-galerie a.wip
+{
+background-image: url(../bilder/arbeitsproben/6.Deckblatt-CRSKneu6bearbkl.jpg);
+}
+
+#navi-galerie a:hover img
+{
+visibility: hidden;
+}
+
+#navi-galerie2
+{
+padding: 0 0 0 0;	
+list-style-type: none; 
+position: absolute;
+float: left;
+top: 550px;
+
+}
+
+#navi-galerie2 li
+{
+float: left;
+margin: 10px 10px 10px 0;
+padding: 3px;
+border: 2px solid #c27d56;
+}
+
+#navi-galerie2 img
+{
+display: block;
+}
+
+#navi-galerie2 a
+{
+display:block;
+}
+
+#navi-galerie2 a.wkunschtmeup
+{
+background-image: url(../bilder/arbeitsproben/crk-wkunschtmeup-oSchmkl.jpg);
+}
+
+#navi-galerie2 a.diversity
+{
+background-image: url(../bilder/arbeitsproben/Wunschtmeup2020CS5kl.jpg);
+}
+
+#navi-galerie2 a.senvida1
+{
+background-image: url(../bilder/arbeitsproben/Märchenland-Weihnachtsk2021klbuttonfarbe.jpg);
+}
+
+#navi-galerie2 a.senvida2
+{
+background-image: url(../bilder/arbeitsproben/visitenkarte-senvida-musterkl.jpg);
+}
+
+#navi-galerie2 a.nightmare
+{
+background-image: url(../bilder/arbeitsproben/MeineExponate-BFW-AusstellungCRK-KunstAuschnittklfarbe.jpg);
+}
+
+#navi-galerie2 a.keinkummerland
+{
+background-image: url(../bilder/arbeitsproben/KgebDampflVorders2kl.jpg);
+}
+
+#navi-galerie2 a.ls
+{
+background-image: url(../bilder/arbeitsproben/londonskyline%20ai5kl.jpg);
+}
+
+#navi-galerie2 a.sommerfest
+{
+background-image: url(../bilder/arbeitsproben/bundeswehr-arbeitsprobe-vorderseite-charlierskuehnkl.jpg);
+}
+
+#navi-galerie2 a.gedenktafel
+{
+background-image: url(../bilder/arbeitsproben/gedenktafel-blitz-charlie%20r.s.kuehnkl.jpg);
+}
+
+#navi-galerie2 a.gesellenpruefung
+{
+background-image: url(../bilder/arbeitsproben/acryluntersetzer-gesellenpruefung-friseur-charlie%20r.s.%20kuehn1kl.jpg);
+}
+
+#navi-galerie2 a:hover img
+{
+visibility: hidden;
+}
+
+#navi-galerie3
+{
+padding: 0 0 0 0;	
+list-style-type: none; 
+}
+
+#navi-galerie3 li
+{
+float: left;
+margin: 10px 10px 10px 0;
+padding: 3px;
+border: 2px solid #c27d56;
+}
+
+#navi-galerie3 img
+{
+display: block;
+}
+
+#navi-galerie3 a
+{
+display:block;
+}
+
+#navi-galerie3 a.wkunschtmeup
+{
+background-image: url(../bilder/arbeitsproben/crk-wkunschtmeup-oSchmkl.jpg);
+}
+
+#navi-galerie3 a.diversity
+{
+background-image: url(../bilder/arbeitsproben/Wunschtmeup2020CS5kl.jpg);
+}
+
+#navi-galerie3 a.senvida1
+{
+background-image: url(../bilder/arbeitsproben/Märchenland-Weihnachtsk2021klbuttonfarbe.jpg);
+}
+
+#navi-galerie3 a.senvida2
+{
+background-image: url(../bilder/arbeitsproben/visitenkarte-senvida-musterkl.jpg);
+}
+
+#navi-galerie3 a.nightmare
+{
+background-image: url(../bilder/arbeitsproben/MeineExponate-BFW-AusstellungCRK-KunstAuschnittklfarbe.jpg);
+}
+
+#navi-galerie3 a.keinkummerland
+{
+background-image: url(../bilder/arbeitsproben/KgebDampflVorders2kl.jpg);
+}
+
+#navi-galerie3 a.ls
+{
+background-image: url(../bilder/arbeitsproben/londonskyline%20ai5kl.jpg);
+}
+
+#navi-galerie3 a.sommerfest
+{
+background-image: url(../bilder/arbeitsproben/bundeswehr-arbeitsprobe-vorderseite-charlierskuehnkl.jpg);
+}
+
+#navi-galerie3 a.gedenktafel
+{
+background-image: url(../bilder/arbeitsproben/gedenktafel-blitz-charlie%20r.s.kuehnkl.jpg);
+}
+
+#navi-galerie3 a.gesellenpruefung
+{
+background-image: url(../bilder/arbeitsproben/acryluntersetzer-gesellenpruefung-friseur-charlie%20r.s.%20kuehn1kl.jpg);
+}
+
+#navi-galerie3 a:hover img
+{
+visibility: hidden;
+}
+
+#navi-galerie4
+{
+padding: 0 0 0 0;	
+list-style-type: none; 
+position: absolute;
+float: left;
+top: 800px;
+
+}
+
+#navi-galerie4 li
+{
+float: left;
+margin: 0 10px 0 0;
+padding: 3px;
+border: 2px solid #c27d56;
+}
+
+#navi-galerie4 img
+{
+display: block;
+}
+
+#navi-galerie4 a
+{
+display:block;
+}
+
+#navi-galerie4 a.mosaik2
+{
+background-image: url(../bilder/arbeitsproben/mitternachtunterwasserkl.jpg);
+}
+
+#navi-galerie4 a.mosaik1
+{
+background-image: url(../bilder/arbeitsproben/landscapekl.jpg);
+}
+
+#navi-galerie4 a.mosaik3
+{
+background-image: url(../bilder/arbeitsproben/bluelotte3klausschnfarbe.jpg);
+}
+
+#navi-galerie4 a.mosaik4
+{
+background-image: url(../bilder/arbeitsproben/indenkinderschuhen5klfarbe.jpg);
+}
+
+#navi-galerie4 a.mosaik5
+{
+background-image: url(../bilder/arbeitsproben/steampunktunterwasser3klfarbe.jpg);
+}
+
+#navi-galerie4 a.zamonien
+{
+background-image: url(../bilder/arbeitsproben/alampwork8klfarbe.jpg);
+}
+
+#navi-galerie4 a.tau
+{
+background-image: url(../bilder/arbeitsproben/tauziehenkl.jpg);
+}
+
+#navi-galerie4 a:hover img
+{
+visibility: hidden;
+}
+
+#navi-galerie5
+{
+padding: 0 0 0 0;	
+list-style-type: none; 
+}
+
+#navi-galerie5 li
+{
+float: left;
+margin: 0 10px 0 0;
+padding: 3px;
+border: 2px solid #c27d56;
+}
+
+#navi-galerie5 img
+{
+display: block;
+}
+
+#navi-galerie5 a
+{
+display:block;
+}
+
+#navi-galerie5 a.mosaik2
+{
+background-image: url(../bilder/arbeitsproben/mitternachtunterwasserkl.jpg);
+}
+
+#navi-galerie5 a.mosaik1
+{
+background-image: url(../bilder/arbeitsproben/landscapekl.jpg);
+}
+
+#navi-galerie5 a.mosaik3
+{
+background-image: url(../bilder/arbeitsproben/bluelotte3klausschnfarbe.jpg);
+}
+
+#navi-galerie5 a.mosaik4
+{
+background-image: url(../bilder/arbeitsproben/indenkinderschuhen5klfarbe.jpg);
+}
+
+#navi-galerie5 a.mosaik5
+{
+background-image: url(../bilder/arbeitsproben/steampunktunterwasser3klfarbe.jpg);
+}
+
+#navi-galerie5 a.zamonien
+{
+background-image: url(../bilder/arbeitsproben/alampwork8klfarbe.jpg);
+}
+
+#navi-galerie5 a.tau
+{
+background-image: url(../bilder/arbeitsproben/tauziehenkl.jpg);
+}
+
+
+#navi-galerie5 a:hover img
+{
+visibility: hidden;
+}
+
+#navi-galerie6
+{
+padding: 0 0 0 0;	
+list-style-type: none; 
+position: absolute;
+float: left;
+top: 950px;
+
+}
+
+#navi-galerie6 li
+{
+float: left;
+margin: 0 10px 0 0;
+padding: 3px;
+border: 2px solid #c27d56;
+}
+
+#navi-galerie6 img
+{
+display: block;
+}
+
+#navi-galerie6 a
+{
+display:block;
+}
+
+#navi-galerie6 a.itmon
+{
+background-image: url(../bilder/arbeitsproben/inthemiddleofthenowhere8kl.jpg);
+}
+
+#navi-galerie6 a.krieger
+{
+background-image: url(../bilder/arbeitsproben/kriegerbearb3kl.jpg);
+}
+
+#navi-galerie6 a:hover img
+{
+visibility: hidden;
+}
+
+#navi-galerie7
+{
+padding: 0 0 0 0;	
+list-style-type: none; 
+}
+
+#navi-galerie7 li
+{
+float: left;
+margin: 0 10px 0 0;
+padding: 3px;
+border: 2px solid #c27d56;
+}
+
+#navi-galerie7 img
+{
+display: block;
+}
+
+#navi-galerie7 a
+{
+display:block;
+}
+
+#navi-galerie7 a.itmon
+{
+background-image: url(../bilder/arbeitsproben/inthemiddleofthenowhere8kl.jpg);
+}
+
+#navi-galerie7 a.krieger
+{
+background-image: url(../bilder/arbeitsproben/kriegerbearb3kl.jpg);
+}
+
+#navi-galerie7 a:hover img
+{
+visibility: hidden;
+}
+
+
+
+
+
+#navi-galerie8
+{
+padding: 0 0 0 0;	
+list-style-type: none; 
+position: absolute;
+float: left;
+top: 1100px;
+
+}
+
+#navi-galerie8 li
+{
+float: left;
+margin: 0 10px 0 0;
+padding: 3px;
+border: 2px solid #c27d56;
+}
+
+#navi-galerie8 img
+{
+display: block;
+}
+
+#navi-galerie8 a
+{
+display:block;
+}
+
+#navi-galerie8 a.badundu
+{
+background-image: url(../bilder/arbeitsproben/badundu4klauschnfarbe.jpg);
+}
+
+#navi-galerie8 a.banner
+{
+background-image: url(../bilder/arbeitsproben/subway3.0klausschnfarbe.jpg);
+}
+
+#navi-galerie8 a.eierei
+{
+background-image: url(../bilder/arbeitsproben/Raumsparsyphon%201klauschnfarbe.jpg);
+}
+
+#navi-galerie8 a.produkte
+{
+background-image: url(../bilder/arbeitsproben/armatur1klauschnfarbe.jpg);
+}
+
+#navi-galerie8 a.anzeige
+{
+background-image: url(../bilder/arbeitsproben/Anzeige2klauschnfarbe.jpg);
+}
+
+#navi-galerie8 a:hover img
+{
+visibility: hidden;
+}
+
+#navi-galerie9
+{
+padding: 0 0 0 0;	
+list-style-type: none; 
+}
+
+#navi-galerie9 li
+{
+float: left;
+margin: 0 10px 0 0;
+padding: 3px;
+border: 2px solid #c27d56;
+}
+
+#navi-galerie9 img
+{
+display: block;
+}
+
+#navi-galerie9 a
+{
+display:block;
+}
+
+#navi-galerie9 a.badundu
+{
+background-image: url(../bilder/arbeitsproben/badundu4klauschnfarbe.jpg);
+}
+
+#navi-galerie9 a.banner
+{
+background-image: url(../bilder/arbeitsproben/subway3.0klausschnfarbe.jpg);
+}
+
+#navi-galerie9 a.eierei
+{
+background-image: url(../bilder/arbeitsproben/Raumsparsyphon%201klauschnfarbe.jpg);
+}
+
+#navi-galerie9 a.produkte
+{
+background-image: url(../bilder/arbeitsproben/armatur1klauschnfarbe.jpg);
+}
+
+#navi-galerie9 a.anzeige
+{
+background-image: url(../bilder/arbeitsproben/Anzeige2klauschnfarbe.jpg);
+}
+
+
+#navi-galerie9 a:hover img
+{
+visibility: hidden;
+}
+
+/*-------------------- Ende der Unternavigation für Galerie -----------------------*/
+
+/*-------------------- Vor u. Zurück - Galeriesteuerung Beginn ------------------*/
+
+#vor-zurueck
+{
+text-align: center;
+list-style-type: none;
+width: 60%;
+padding: 0;
+}
+
+#vor-zurueck li
+{
+display: inline-block; /*funktioniert nicht in allen Browsern*/
+margin: 0 25px 0 25px;
+text-indent: 0px;
+}
+
+#vor-zurueck li a
+{
+height: 35px;
+width: 35px;
+display: block;
+}
+
+#vor-zurueck li.links a:hover
+{
+background-image: url(../bilder/transparenzen/dreiecklinkshover-60.png);
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+#vor-zurueck li.rechts a:hover
+{
+background-image: url(../bilder/transparenzen/dreieckrechtshover-60.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+#vor-zurueck a:hover img
+{
+visibility: hidden;
+}
+
+/*-------------------- Vor u. Zurück - Galeriesteuerung Ende ------------------*/
+
+/*---------------- Galerietabelle Beginn -------------------*/
+
+table
+{
+border: 2px solid #c27d56;
+/*border-collapse: collapse;*/
+border-collapse: separate;
+border-spacing: 10px;
+}
+
+tr
+{
+background-image: url(../bilder/transparenzen/weiss-20.png);
+background-repeat: repeat;
+background-size: 100% 100% ;
+background-attachment: local;
+text-align: justify;
+/* folgende Zeilen generieren eine automatische Silbentrennung, verschiedene Browser-Rendering-Engines müssen aufgeführt werden. Die allgemeine Zeile muss immer an letzter Stelle stehen. (dazu aber in der HTML-Datei im Html-Tag dass Attribut lang="de" einfügen */
+-moz-hyphens: auto;
+-o-hyphens: auto;
+-webkit-hyphens: auto;
+-ms-hyphens: auto;
+hyphens: auto;
+}
+
+td, th
+{
+padding: 20px;
+border: 1px dotted #c27d56;
+margin: 50px;
+}
+
+th
+{
+background-image: url(../bilder/transparenzen/hellgruen-60.png);
+background-repeat: repeat;
+background-size: 100% 100% ;
+background-attachment: local;
+min-width: 150px;
+}
+
+/*---------------- Galerietabelle Ende -------------------*/
+
+.clearfix
+{
+clear: both;
+}
+
+h1
+{
+top: -65px;
+left: 0;
+position: absolute;
+margin-top: 0;
+margin-left: 5%;
+width: 100%;
+text-indent: 20px;
+z-index: 50;
+}
+
+h2
+{
+color: #9b5480;
+font-size: 25px;
+}
+
+h3
+{
+color: #805971;
+}
+
+div.text
+{
+background-image: url(../bilder/transparenzen/hellbraun-60.png);
+background-repeat: repeat;
+background-size: 100 % 100 %;
+background-attachment: local;
+border-left-color: #c27d56;
+border-left-width: 1px;
+border-left-style:dotted;
+border-right-color: #c27d56;
+border-right-width: 1px;
+border-right-style:dotted;
+min-height: 1000px;
+margin-left: 20%;
+margin-right: 25px;
+padding-top: 50px;
+padding-left: 100px;
+padding-right: 100px;
+padding-bottom: 15px;
+color: #494848;
+}
+
+img.bild
+{
+float: left;
+margin-right: 10px;
+margin-bottom: 10px;
+padding: 3px;
+border-color: #c27d56;
+border-style: solid;
+border-width: 2px;
+max-width: 60%;
+}
+
+.seitennavi
+{
+text-align: right;
+}
+
+/*---------- Links Anfang -------*/
+
+a 
+{ 	
+color: #f5cf71; 
+}
+
+a:hover
+{
+color: #faf1dc;
+}
+
+a:active
+{
+color: #b4c1fc;
+}  
+
+/*---------- Links Ende -------*/
+
+/*---------- Linkliste Anfang -------*/
+
+ul#liste li
+{
+list-style-type: none;
+margin-left: -25px;
+}
+
+/*---------- Linkliste Ende ---------*/
+
+/*----------------Video Beginn---------------*/ 
+ 
+p.video 
+{
+background-image: url(../bilder/transparenzen/hellgruen-30.png);
+background-repeat: repeat;
+background-size: 100 % 100 %;
+background-attachment: local;
+border-color: #c27d56;
+border-width: 1px;
+border-style:dotted;
+color: #494848; 
+padding: 10px;
+font-weight: bold;
+}  
+
+p.video a 
+{ 	
+color: #f5cf71; 
+}
+
+p.video a:hover
+{
+color: #faf1dc;
+}
+
+p.video a:active
+{
+color: #b4c1fc;
+} 
+
+p.video2 
+{
+background-image: url(../bilder/transparenzen/hellbraun-30.png);
+background-repeat: repeat;
+background-size: 100 % 100 %;
+background-attachment: local;
+border-color: #c27d56;
+border-width: 1px;
+border-style:dotted;
+color: #494848; 
+padding: 10px;
+font-weight: bold;
+}  
+
+p.video2 a 
+{ 	
+color: #f5cf71; 
+}
+
+p.video2 a:hover
+{
+color: #faf1dc;
+}
+
+p.video2 a:active
+{
+color: #b4c1fc;
+}  
+
+/*----------------Video Ende---------------*/
+
+p
+{
+text-align: justify;
+/* folgende Zeilen generieren eine automatische Silbentrennung, verschiedene Browser-Rendering-Engines müssen aufgeführt werden. Die allgemeine Zeile muss immer an letzter Stelle stehen. (dazu aber in der HTML-Datei im Html-Tag dass Attribut lang="de" einfügen */
+-moz-hyphens: auto;
+-o-hyphens: auto;
+-webkit-hyphens: auto;
+-ms-hyphens: auto;
+hyphens: auto;
+}
+
+div#footer
+{
+background-image: url(../bilder/zamonienfarbverlvoll.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: local;
+font-family: verdana;
+height: 100px;
+border-top-color: #c27d56;
+border-top-width: 1px;
+border-top-style:dotted;
+border-bottom-color: #c27d56;
+border-bottom-width: 2px;
+border-bottom-style:solid;
+border-left-color: #c27d56;
+border-left-width: 2px;
+border-left-style:solid;
+border-right-color: #c27d56;
+border-right-width: 2px;
+border-right-style:solid;
+margin-top: 0;
+margin-right: 5%;
+margin-left: 10%;
+padding-right: 125px;
+padding-top: 20px
+}
